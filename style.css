@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0;
+}
+form{
+    margin: 10px;
+}
+input{
+    margin: 10px 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: hsl(0, 0%, 65%);
+}
+button{
+    border: 10px 15px;
+    font-size: 1.5rem;
+    background-color: hsl(120, 90%, 55%);
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: hsl(120, 90%, 65%);
+}
+button:active{
+    background-color: hsl(120, 90%, 75%);
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    min-width: 250px;
+    border-top: 500px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.353);
+    background: linear-gradient(180deg , hsl(210,100%,75%) , hsl(40,100%,75%));
+}
+.cityClass{
+    font-size: 2rem;
+    font-weight: bold;
+    margin:10px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 15px;
+}
+.emojiClass{
+    font-size: 4rem;
+}
